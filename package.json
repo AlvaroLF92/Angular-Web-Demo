@@ -5,10 +5,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve -o",
-    "build": "ng build --configuration production --base-href /Angular-Web-Demo/",
+    "build": "ng build --configuration production --base-href /demo-web-angular/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "npm run build && npx angular-cli-ghpages --dir=dist/Angular-Web-Demo"
+    "deploy": "npm run build && npx angular-cli-ghpages --dir=dist/demo-web-angular"
   },
   "dependencies": {
     "@angular/cdk": "^19.2.3",
