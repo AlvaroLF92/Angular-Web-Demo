@@ -16,15 +16,15 @@ interface Image {
 })
 export class GalleryComponent implements OnInit, OnDestroy {
   images: Image[] = [
-    { id: 1, src: '/assets/img1.jpg', title: 'Foto 1' },
-    { id: 2, src: '/assets/img2.jpg', title: 'Foto 2' },
-    { id: 3, src: '/assets/img3.jpg', title: 'Foto 3' },
-    { id: 4, src: '/assets/img4.jpg', title: 'Foto 4' },
-    { id: 5, src: '/assets/img5.jpg', title: 'Foto 5' },
-    { id: 6, src: '/assets/img6.jpg', title: 'Foto 6' },
-    { id: 7, src: '/assets/img7.webp', title: 'Foto 7' },
-    { id: 8, src: '/assets/img8.webp', title: 'Foto 8' }
-  ];
+  { id: 1, src: 'assets/img1.jpg', title: 'Foto 1' },
+  { id: 2, src: 'assets/img2.jpg', title: 'Foto 2' },
+  { id: 3, src: 'assets/img3.jpg', title: 'Foto 3' },
+  { id: 4, src: 'assets/img4.jpg', title: 'Foto 4' },
+  { id: 5, src: 'assets/img5.jpg', title: 'Foto 5' },
+  { id: 6, src: 'assets/img6.jpg', title: 'Foto 6' },
+  { id: 7, src: 'assets/img7.webp', title: 'Foto 7' },
+  { id: 8, src: 'assets/img8.webp', title: 'Foto 8' }
+];
 
   selectedImage: Image = this.images[0];
   currentIndex: number = 0;
